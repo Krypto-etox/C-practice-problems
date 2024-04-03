@@ -1,0 +1,15 @@
+#SWITCH STATEMENT IS WRITTEN AS FOLLOWS
+
+switch (expression){
+    case constant1:     STATEMENT1;
+                            break;
+    case constant2: STATEMENT2;
+                        break;
+                .
+                .
+                .
+        default : STATEMENTn;
+                    break;
+
+}
+
