@@ -1,0 +1,65 @@
+A C program is made up of one or more functions. Functions are classified into 2 types, they are Library functions and User-defined functions.
+
+Built–in functions are predefined functions, supplied along with the compiler and these can be used in any C program. They are also known as library functions and all these functions are available in C library.
+
+Some of the examples of library functions are scanf(), printf(), gets(), sqrt() and so on.
+
+The functions defined by the users are called as user-defined functions. The main() function is an example of user-defined function because the code with in the main() is written by the user.
+
+
+Let us consider the following code
+
+#include <stdio.h>
+#include <math.h>
+void main() {
+    int x;
+    float y;
+    printf("Enter the value : ");
+    scanf("%d", &x);
+    y = sqrt(x);
+    printf ("The square root of %d is : %f", x, y);
+}
+
+Here main() is user-defined function and printf(), scanf(), sqrt() are library functions.
+
+The main() function invokes other functions with in it viz. printf(), scanf(), and sqrt().
+
+Here main() is calling function and remaining are known as called functions.
+
+A function that invokes another function is known as calling function. A function which is invoked by another function is known as called function. A called function may be a calling function for another function.
+
+// Notes 2
+
+User-defined functions are the functions which are defined by the user at the time of writing program.
+
+Functions are made for code re-usability and for saving time and space.
+
+In C, main() is the user-defined function and first calling function in any program.
+
+main() is a special function which tells the compiler to start the execution of a C program from the beginning of the function main().
+
+It is not possible to have more than one main() function because the compiler will not know where to start the execution in such a situation.
+
+An identifier other than keywords followed by parenthesis is recognized as a function name by the compiler.
+
+To make use of the user-defined function the programmer must be able to know the following 3 concepts.
+Define a Function (or) Function Definition
+Function Prototype (or) Function Declaration
+Calling a Function (or) Invoke a Function
+A function definition describes what a function does, how its actions are achieved and how it is used. It consists of a function header and a function body.
+
+
+The general format of defining a function is
+return_type function_name(parameters list) {
+    //Local variable declarations
+    //Executable statements
+    return(expression);
+}
+The first line which heads the function is known as function header. The function header should not end with a semicolon (;) in defining a function.
+
+The function body follows the function header and it is always enclosed in braces. The body of the function is combination of local variable declarations and executable statements.
+
+Here the statements describe the actions to be performed by the function. The body of function definition is also known as a block or compound statement.
+
+The elements specified within the parenthesis of the function name are known as parameters or arguments.
+

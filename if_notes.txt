@@ -1,0 +1,26 @@
+# if is written as 
+if (CONDITION){
+    statement1;
+    statement2;
+    statement3;
+}
+
+# if-else is written as 
+if (CONDITION){
+    statement;
+} else {
+    statement;
+}
+
+# Nested if-else is written as
+if (expression1){
+    if(expression1){
+        if (expression2){
+            statement;
+        } else{
+            statement1
+        }
+    }else {
+        statement3
+    }
+}

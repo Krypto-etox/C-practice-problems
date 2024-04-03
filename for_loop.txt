@@ -1,0 +1,28 @@
+#for loop is used to iterate a range with fixed limits
+syntax------>
+
+for (initial, condition, update){
+    statement(s);
+}
+
+example:
+
+#include <stdio.h>
+int main(){
+    int i = 10;
+    for (i; i<= 20; i++){
+        printf("%d\n",i);
+    }
+    return 0;
+}
+
+#include <stdio.h>
+void main(){
+    int a, i, n, a_power_n;
+    printf("Enter two integer values for a and n : ");
+    scanf("%d %d", &a, &n);
+    for (    ;    ;    ){      // write initialization, conditon, increment
+        a_power_n =      ;     // calculate the value
+    }
+    printf("a_power_n = %d\n", a_power_n);
+}

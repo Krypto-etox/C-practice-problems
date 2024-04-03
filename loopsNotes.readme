@@ -1,0 +1,17 @@
+#Control statement
+SELECTION STATEMENT: CHOICES ARE MADE AS PER CONDITION
+-> if construct
+-> if-else
+-> if-else-if
+-> nested if-else-if
+-> switch-case
+
+ITERATIVE STATEMENT: REPEATS A CONDITION
+-> while loop
+-> do-while loop
+-> for loop
+
+UNCONDITIONAL CONTROL STATEMENT: IT TRANSFERS CONTROL-FLOW TO SOME OTHER SECTION OF THE PROGRAM WITHOUT THE NEED OF A CONDITION.
+-> break
+-> continue
+-> goto statement

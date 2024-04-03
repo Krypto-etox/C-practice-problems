@@ -1,0 +1,45 @@
+#if-#elif is used to create a chain of #if-else statements
+#include <stdio.h>
+#if BACKGROUND == 7
+    #define FOREGROUND 0
+#elif BACKGROUND == 6
+    #define FOREGROUND 1
+#else 
+    #define FOREGROUND 6
+#endif
+void main(){
+    printf("FOREGROUND value = %d\n",FOREGROUND);
+}
+>>> FOREGROUND value = 6
+ 
+================================================================
+#ifdef, #ifndef
+It is also known as conditional directives, conditional compilation
+#include <stdio.h>
+#if defined (MAX)
+    #define MIN 20
+#else 
+     #define MAX 100
+     #define MIN 200
+#endif
+
+==================================================================
+#undef //undefines macro identifier that undefines predefined 
+values in #define function 
+
+#include <stdio.h>
+#define TEMP 20
+int main() {
+    printf("%d\n", TEMP);
+    #ifdef TEMP 
+        #undef TEMP
+        #define TEMP 99
+    #else 
+        #define TEMP 999
+    #endif
+    
+    printf("%d\n", TEMP);
+    return 0;
+}
+
+====================================================================

@@ -1,0 +1,11 @@
+#while Loop: it is iterative Loop and remains in loop till it's expresion is True and returns back of the loop as it encounters False expression.
+
+#format
+while (condition){
+    statement 1;
+    statement2;
+    statement3;
+    .
+    .
+    .
+}
